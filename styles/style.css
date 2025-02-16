@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    font-family: 'Roboto', serif;
+}
+
+.banner{
+    background: url('../images/illustration-sign-up-mobile.jpg') no-repeat;
+    height: 280px;
+    border-radius: 0 0 20px 20px;
+}
+
+main{
+    padding: 30px;
+    color: #242742;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+main > p{
+    margin-bottom: 20px;
+}
+
+ul{
+    padding: 20px;
+}
+
+li{
+    list-style: url('../images/icon-list.jpg');
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: 0.8em;
+    font-weight: bold;
+    color: 	#242742;
+}
+
+input{
+    width: 100%;
+    margin: auto;
+    padding: 15px;
+    margin: 10px 0;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+input[type="button"]{
+    background-color: 	#242742;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+}
