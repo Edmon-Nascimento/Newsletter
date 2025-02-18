@@ -14,3 +14,8 @@ main{
     border-radius: 10px;
     margin-left: 20px;
 }
+
+.hover:hover{
+    background-image: linear-gradient(to right, #FD5570, #fc863d);
+    border: none;
+}
