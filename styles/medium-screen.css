@@ -1,0 +1,15 @@
+body{
+    background-color: #FF6257;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+
+.banner{
+    display: none;
+}
+
+main{
+    background-color: white;
+    border-radius: 20px;
+}
