@@ -1,0 +1,16 @@
+body{
+    background-color: #242742;
+}
+
+main{
+    display: flex;
+}
+
+.img{
+    background: url('../images/illustration-sign-up-desktop.jpg') no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
