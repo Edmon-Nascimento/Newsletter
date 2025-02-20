@@ -61,4 +61,37 @@ input[type="button"]{
     cursor: pointer;
     color: white;
     font-weight: 700;
+    margin: auto;
+}
+
+.alert{
+    position:fixed;
+    bottom: -100%;
+    left: 0;
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    background-color: white;
+    transition: .5s;
+}
+
+.alert div{
+    padding: 20px;
+}
+
+.alert.show{
+    bottom: 0;
+}
+
+.alert img{
+    width: 60px;
+    margin: 40px 0;
+}
+
+.alert h1{
+    font-size: 2em;
+}
+
+.alert p{
+    margin-bottom: 150px;
 }

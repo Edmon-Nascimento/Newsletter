@@ -19,3 +19,15 @@ main{
     background-image: linear-gradient(to right, #FD5570, #fc863d);
     border: none;
 }
+
+.alert{
+    width: 100vw;
+    background-color: #242742;
+}
+
+.alert div{
+    width: 450px;
+    background-color: white;
+    margin: auto;
+    border-radius: 20px;
+}

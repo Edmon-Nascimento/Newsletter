@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Newsletter sing-up</title>
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/medium-screen.css" media="screen and (min-width: 375px)">
+    <link rel="stylesheet" href="styles/medium-screen.css" media="screen and (min-width: 376px)">
     <link rel="stylesheet" href="styles/large-screen.css" media="screen and (min-width: 768px)">
     <link rel="shortcut icon" href="images/favicon-32x32.ico" type="image/x-icon">
 </head>
@@ -26,12 +26,22 @@
                     <label for="email">Email address</label>
                     <input type="email" name="email" id="email" placeholder="email@company.com" required>
                </p>
-                <input class="hover" type="button" value="Subscribe to monthly newsletter">
+                <input class="hover" type="button" value="Subscribe to monthly newsletter" onclick="showalert()">
             </form>
         </section>
 
         <section class="img"></section>
+        
+        <section class="alert">          
+            <div>
+                <img src="images/icon-success.jpg" alt="">
+                <h1>Thanks for subscribing!</h1>
+                <p>A confirmation email has been sent to <span class="mail"></span>. Please open it and click the button inside to confirm your subscription.</p>
+                <input class="hover" type="button" value="Dismiss message" onclick="hidealert()">
+            </div>
+        </section>
     </main>
+    
 
     <script src="script.js"></script>
 </body>
